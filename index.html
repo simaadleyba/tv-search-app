@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>TV Show Search</h1>
+    <div class="control is-centered" id="formDiv">
+        <form id="searchForm">
+            <p>Search a TV show!</p>
+            <input class="input" type="text" placeholder="TV Show Title" name="query">
+            <button>Search</button>
+        </form>
+    </div>
+
+    <div class="container" id="cardsContainer">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+/* Styling */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    background-image: -webkit-linear-gradient(#D4C8E3 0%, #E4EEEF 100%);
+    background-image: -o-linear-gradient(#D4C8E3 0%, #E4EEEF 100%);
+    background-image: linear-gradient(#D4C8E3 0%, #E4EEEF 100%);
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+    color: black;
+    font-weight: 800;
+}
+
+#searchForm {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 0.2rem;
+    color: black;
+}
+
+form button {
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0%;
+    background-color: white;
+    border: none;
+}
+
+.input {
+    border-radius: 0%;
+}
+
+.card {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+}
+
+.title.is-4 {
+    margin-bottom: 2rem !important;
+}
+
+.subtitle.is-6 {
+    margin-bottom: 2rem;
+    color: #1a52ad;
+}
+
+.content {
+    margin-top: 2rem;
+}
+
+/* Overriding Bulma's @media queries */
+@media screen and (min-width: 1408px) {
+    .container:not(.is-max-desktop):not(.is-max-widescreen) {
+        max-width: none;
+    }
+}
+
+@media screen and (min-width: 1216px) {
+    .container:not(.is-max-desktop) {
+        max-width: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: none;
+    }
+}
